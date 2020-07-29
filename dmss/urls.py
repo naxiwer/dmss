@@ -16,7 +16,7 @@ Including another URLconf
 from django.conf.urls import include, url
 from django.contrib import admin
 admin.autodiscover()
-from login import views as homeviews
+#from login import views as homeviews
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
